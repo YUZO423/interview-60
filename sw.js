@@ -1,6 +1,6 @@
 // ビルド時に、全ローカル資産とバージョンを埋め込みます。
-const CACHE = 'interview60-1795135638340';
-const ASSETS = ["./assets/index-BX9mXHAJ.js","./assets/index-DwfjKbcM.css","./assets/read-excel-file-S93-Ej8n.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = 'interview60-1795409635956';
+const ASSETS = ["./assets/index-CchStfag.css","./assets/index-J3gu2i1u.js","./assets/read-excel-file-S93-Ej8n.js","./icon-192.png","./icon-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
 });
